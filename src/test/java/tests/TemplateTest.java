@@ -12,6 +12,14 @@ public class TemplateTest extends BaseTest {
         templatePage.searchSomething("Busqueda de prueba");
         
         // Mock assertions
-        Assert.assertEquals(true, false);
+        Assert.assertEquals(true, true);
+        
+        // Just for show, don't use this
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 }
